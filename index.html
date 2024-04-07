@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body{
+            font-size: 1.5rem;
+        }
+        option{
+          font-size: larger;
+        }
+        
+        
+    </style>
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <nav>
+        <div class="nav-container">
+          <a href="#" class="logo">Sorting Project - Design and Analysis of Algorithm</a>
+          
+        </div>
+      </nav>
+      
+    <form>
+        <input type="text" id="1"></input>
+        <button id="btn">Add</button>
+        
+    </form>
+    <form>
+        <select id="2">
+            <option value="1">Selection Sort</option>
+            <option value="2">Bubble Sort</option>
+            <option value="3">Insertion Sort</option>
+            <option value="4">Merge Sort</option>
+            <option value="5">Quick Sort</option>
+            <option value="6">Heap Sort</option>
+            <option value="7">Counting Sort</option>
+            <option value="8">Radix Sort</option>
+            <option value="9">Bucket Sort</option>
+        </select>
+        <button id="sortbtn">Sort</button>
+    </form>
+    <table  id="table">
+        <tr>
+          <td colspan="1">Original</td>
+          <td colspan="2"id="Original">--Nil--</td>
+        </tr>
+        <tr>
+            <td colspan="1">Sorted</td>
+            <td colspan="2"id="Sorted">--Nil--</td>
+        </tr>
+        <!-- <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr> -->
+        <tr>
+            <th rowspan="3">Time Complexity</th>
+            <td >Best</td>
+            <td id="Best">--Nil--</td>
+        </tr>
+        <tr>
+            <td>Avg</td>
+            <td id="Avg">--Nil--</td>
+        </tr>
+        <tr>
+            <td>Worst</td>
+            <td id="Worst">--Nil--</td>
+        </tr>
+      </table>
+    <textarea id="xyz" spellcheck="false"></textarea>
+    <footer>
+        &copy; 2024 Dhruv Kandpal | All rights reserved
+    </footer>
+    </div>
+    
+  </body>
+  <script src="abc.js"></script>
+</html>
