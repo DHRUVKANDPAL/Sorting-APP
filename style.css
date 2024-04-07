@@ -107,26 +107,25 @@ footer {
     }
     
 }
-@media (max-width: 400px) {
+
+@media (max-width: 768px) {
+    textarea#xyz {
+        height: calc(100vh - 350px); /* Adjust for smaller devices */
+    }
+    
+}
+@media (max-width: 440px) {
     textarea#xyz {
         width: 80%; /* Matching the table width */
         margin: 20px auto; /* Centering */
         display: block;
-        height: calc(100vh - 550px); /* Dynamically adjust based on viewport */
-        /* padding: px; */
-        /* padding-left: -50px; */
+        height: 75vh; 
         border-radius: 5px;
         border: 1px solid #ccc;
         resize: none; /* Optional: Prevents resizing */
         /* font-size: large; */
         white-space: nowrap; /* Prevents wrapping */
         overflow-x: auto;
-    }
-    
-}
-@media (max-width: 768px) {
-    textarea#xyz {
-        height: calc(100vh - 550px); /* Adjust for smaller devices */
     }
     
 }
