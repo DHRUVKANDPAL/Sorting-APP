@@ -174,3 +174,14 @@ nav {
 table,tr,td,th{
     border:1px solid #ccc;
 }
+table {
+   table-layout: fixed;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word; /* For older browsers */
+    overflow-wrap: break-word; /* For modern browsers */
+}
